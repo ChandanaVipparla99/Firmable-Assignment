@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firmable/testimonials",
+  "title": "Firmable Testimonials",
+  "category": "design",
+  "icon": "format-quote",
+  "description": "Three-column testimonial cards with star ratings and avatars.",
+  "textdomain": "firmable-landing-blocks",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "default": "Loved by revenue teams"
+    },
+    "subheadline": {
+      "type": "string",
+      "default": "Join 10,000+ companies growing their pipeline with Firmable"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "firmable-landing-blocks",
+  "version": "1.0.0",
+  "description": "Custom Gutenberg blocks for the Firmable landing page",
+  "scripts": {
+    "build": "wp-scripts build src/hero/index.js src/logos/index.js src/features/index.js src/testimonials/index.js src/cta/index.js --output-path=build",
+    "start": "wp-scripts start src/hero/index.js src/logos/index.js src/features/index.js src/testimonials/index.js src/cta/index.js --output-path=build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  }
+}

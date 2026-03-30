@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firmable/cta",
+  "title": "Firmable CTA Section",
+  "category": "design",
+  "icon": "megaphone",
+  "description": "Full-width gradient CTA section with headline, subheadline, and two buttons.",
+  "textdomain": "firmable-landing-blocks",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "badgeText": {
+      "type": "string",
+      "default": "Join 10,000+ growing teams"
+    },
+    "headline": {
+      "type": "string",
+      "default": "Ready to supercharge your pipeline?"
+    },
+    "subheadline": {
+      "type": "string",
+      "default": "Start your free 14-day trial today. No credit card required. Access 25M+ company profiles and close deals faster than ever."
+    },
+    "ctaPrimaryText": {
+      "type": "string",
+      "default": "Start Free Trial — No Card Needed"
+    },
+    "ctaPrimaryUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "ctaSecondaryText": {
+      "type": "string",
+      "default": "Talk to Sales"
+    },
+    "ctaSecondaryUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "footnote": {
+      "type": "string",
+      "default": "14-day free trial · No credit card · Cancel anytime"
+    }
+  }
+}

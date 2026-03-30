@@ -1,0 +1,104 @@
+/* ── Firmable Testimonials Block ───────────────── */
+.flb-testimonials {
+    padding: 6rem 0;
+    background: linear-gradient(160deg, #F0F4FF 0%, #E8F8FF 50%, #F0FFF8 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.flb-testimonials__inner {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.flb-testimonials__header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.flb-testimonials__stars {
+    display: flex;
+    gap: .25rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.flb-testimonials__headline {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    font-weight: 900;
+    letter-spacing: -.02em;
+    color: #0F172A;
+    margin: 0 0 .75rem;
+}
+
+.flb-testimonials__sub {
+    color: #64748B;
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+.flb-testimonials__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .flb-testimonials__grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.flb-testimonials__card {
+    background: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 1rem;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    transition: box-shadow .3s, transform .3s;
+}
+.flb-testimonials__card:hover {
+    box-shadow: 0 16px 40px rgba(0,0,0,.1);
+    transform: translateY(-4px);
+}
+
+.flb-testimonials__quote {
+    flex: 1;
+    font-style: italic;
+    color: #374151;
+    line-height: 1.7;
+    margin: .75rem 0 1.5rem;
+    font-size: .95rem;
+}
+
+.flb-testimonials__author {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.flb-testimonials__avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: .875rem;
+    flex-shrink: 0;
+}
+
+.flb-testimonials__name {
+    font-weight: 600;
+    font-size: .875rem;
+    color: #0F172A;
+    margin: 0 0 .125rem;
+}
+
+.flb-testimonials__role {
+    font-size: .75rem;
+    color: #64748B;
+    margin: 0;
+}

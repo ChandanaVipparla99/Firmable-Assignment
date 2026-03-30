@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firmable/features",
+  "title": "Firmable Features Grid",
+  "category": "design",
+  "icon": "grid-view",
+  "description": "Four-column feature grid with icons, titles, and descriptions.",
+  "textdomain": "firmable-landing-blocks",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "sectionLabel": {
+      "type": "string",
+      "default": "Platform Features"
+    },
+    "headline": {
+      "type": "string",
+      "default": "Everything you need to accelerate revenue"
+    },
+    "subheadline": {
+      "type": "string",
+      "default": "From prospecting to deal-close, Firmable equips your team with intelligent data and tools that actually move the needle."
+    }
+  }
+}

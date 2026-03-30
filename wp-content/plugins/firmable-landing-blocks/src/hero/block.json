@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firmable/hero",
+  "title": "Firmable Hero",
+  "category": "design",
+  "icon": "superhero",
+  "description": "Full-width hero section with headline, subheadline, CTA buttons, and stats bar.",
+  "textdomain": "firmable-landing-blocks",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "badgeText": {
+      "type": "string",
+      "default": "Australia's #1 B2B Intelligence Platform"
+    },
+    "headline": {
+      "type": "string",
+      "default": "Find, Enrich & Close Your"
+    },
+    "gradientText": {
+      "type": "string",
+      "default": "Ideal Customers"
+    },
+    "subheadline": {
+      "type": "string",
+      "default": "Firmable gives your revenue team access to 25M+ accurate company profiles, real-time intent signals, and AI-powered prospecting — so you can stop guessing and start closing."
+    },
+    "ctaPrimaryText": {
+      "type": "string",
+      "default": "Start Free Trial"
+    },
+    "ctaPrimaryUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "ctaSecondaryText": {
+      "type": "string",
+      "default": "Watch Demo"
+    },
+    "ctaSecondaryUrl": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}

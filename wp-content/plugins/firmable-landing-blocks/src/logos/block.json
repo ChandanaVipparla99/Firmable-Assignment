@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "firmable/logos",
+  "title": "Firmable Logos Strip",
+  "category": "design",
+  "icon": "awards",
+  "description": "Social proof logo strip showing trusted company names.",
+  "textdomain": "firmable-landing-blocks",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Trusted by leading revenue teams at"
+    }
+  }
+}

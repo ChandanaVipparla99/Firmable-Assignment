@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "settings": {
+    "blocks": {
+      "core/group": {
+        "spacing": {
+          "padding": true,
+          "margin": true
+        }
+      },
+      "core/column": {
+        "spacing": {
+          "padding": true,
+          "margin": true
+        }
+      }
+    },
+    "styles": {
+      "blocks": {
+        "core/group": {
+          "spacing": {
+            "padding": {
+              "top": "2rem",
+              "right": "2rem",
+              "bottom": "2rem",
+              "left": "2rem"
+            }
+          }
+        },
+        "core/column": {
+          "layout": {
+            "type": "grid",
+            "columns": 4
+          },
+          "spacing": {
+            "padding": {
+              "top": "20px",
+              "right": "20px",
+              "bottom": "20px",
+              "left": "20px"
+            }
+          }
+        }
+      }
+    },
+    "border": {
+      "color": true,
+      "style": true,
+      "width": true,
+      "radius": true
+    },
+    "color": {
+      "palette": [
+        { "name": "Brand Orange", "slug": "brand-orange", "color": "#f15b06" },
+        { "name": "Light Gray", "slug": "light-gray", "color": "#e5e7eb" },
+        { "name": "Dark Background", "slug": "bg-dark", "color": "#0a0b14" },
+        { "name": "Primary Text", "slug": "text-primary", "color": "#1a1d2e" },
+        { "name": "Lavender Purple", "slug": "brand-purple", "color": "#8b5cf6" },
+        { "name": "Peach Tint", "slug": "bg-peach", "color": "#FEF7F3" },
+        { "name": "Cream", "slug": "bg-cream", "color": "#FEF6E6" },
+        { "name": "Lavender White", "slug": "bg-lavender", "color": "#F5F3FF" },
+        { "name": "Neutral White", "slug": "bg-white", "color": "#FDFDFD" },
+        { "name": "Soft Gray", "slug": "bg-gray", "color": "#F5F5F5" }
+      ],
+      "gradients": [
+        {
+          "name": "Primary Gradient",
+          "slug": "gradient-primary",
+          "gradient": "linear-gradient(135deg,#ff6b35,#ff8c61)"
+        },
+        {
+          "name": "Dark Gradient",
+          "slug": "gradient-dark",
+          "gradient": "linear-gradient(135deg,#0a0b14,#1a1d2e)"
+        },
+        {
+          "name": "Orange to Purple",
+          "slug": "gradient-orange-purple",
+          "gradient": "linear-gradient(135deg,#F15B06,#875BF7)"
+        },
+        {
+          "name": "Orange to Purple 50%",
+          "slug": "gradient-orange-purple-50",
+          "gradient": "linear-gradient(135deg,rgba(241,91,6,0.5),rgba(135,91,247,0.5))"
+        },
+        {
+          "name": "Orange to Purple 10%",
+          "slug": "gradient-orange-purple-10",
+          "gradient": "linear-gradient(135deg,rgba(241,91,6,0.1),rgba(135,91,247,0.1))"
+        }
+      ],
+      "background": true
+    }
+  }
+}

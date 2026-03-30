@@ -1,0 +1,123 @@
+/* ── Firmable Features Block ───────────────────── */
+.flb-features {
+    padding: 6rem 0;
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.flb-features__inner {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.flb-features__header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.flb-features__label {
+    display: inline-block;
+    padding: .25rem 1rem;
+    border-radius: 9999px;
+    background: #F0FDF4;
+    color: #059669;
+    font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.flb-features__headline {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    font-weight: 900;
+    letter-spacing: -.02em;
+    color: #0F172A;
+    margin: 0 0 1rem;
+}
+
+.flb-features__sub {
+    max-width: 38rem;
+    margin: 0 auto;
+    color: #64748B;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.flb-features__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 640px) {
+    .flb-features__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.flb-features__card {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #E2E8F0;
+    background: #FAFCFF;
+    transition: box-shadow .3s, transform .3s;
+}
+.flb-features__card:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,.08);
+    transform: translateY(-4px);
+}
+
+.flb-features__icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.flb-features__card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 0 0 .75rem;
+}
+
+.flb-features__card-desc {
+    color: #64748B;
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+    font-size: .95rem;
+}
+
+.flb-features__link {
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+    font-size: .875rem;
+    font-weight: 600;
+    cursor: default;
+}
+
+.flb-features__extras {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .75rem;
+}
+
+@media (min-width: 640px) {
+    .flb-features__extras { grid-template-columns: repeat(3, 1fr); }
+}
+
+.flb-features__extra {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .75rem 1rem;
+    border-radius: .75rem;
+    border: 1px solid #E2E8F0;
+    background: #F8FAFC;
+    font-size: .875rem;
+    font-weight: 500;
+    color: #1E293B;
+}
