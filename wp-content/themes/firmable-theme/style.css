@@ -56,6 +56,7 @@ ul.navigation-menu li a {
     text-decoration: none;
     transition: all .3s ease;
     color: var(--wp--preset--color--text-primary);
+    white-space: nowrap;
 }
 ul.navigation-menu li a:hover {
     color: var(--wp--preset--color--brand-orange);
@@ -65,6 +66,7 @@ ul.navigation-menu li a:hover {
     align-items: center;
     display: flex;
     gap: 16px;
+    white-space: nowrap;
 }
 /* Primary button (block + header) */
 .btn-primary,
@@ -376,7 +378,7 @@ ul.navigation-menu li a:hover {
 /* Hero Section Styles */
 .hero-section {
     overflow: hidden;
-    padding: 120px 0;
+    padding: 120px 40px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -428,7 +430,8 @@ p{
     line-height:28px;
 }
 .wp-block-image.has-custom-border img {
-    max-width: 420px !important;
+    /* max-width: 420px !important; */
+    width: 100%;
 }
 .wp-block-media-text__media img, .wp-block-media-text__media video{
     border-radius:16px;
